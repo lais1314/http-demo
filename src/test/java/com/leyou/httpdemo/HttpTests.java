@@ -63,7 +63,7 @@ public class HttpTests {
         System.out.println(s);
         List<User> users = mapper.readValue(s, mapper.getTypeFactory().constructCollectionType(List.class, User.class));
         System.out.println(users);
-
+//dsalfhsajfljasd
         List<User> users1 = mapper.readValue(s, new TypeReference<List<User>>() {
         });
 
